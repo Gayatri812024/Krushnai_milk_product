@@ -1,0 +1,21 @@
+.text{
+  padding-left: 40%;
+  padding-top: 5%;
+  padding-bottom: 0%;
+  font-style: oblique;
+  font-size: 10px;
+  /* font-size: small; */
+  /* font-style: italic; */
+}
+.text2 h2{
+  font-size: 25px;
+  color: #333;
+   /* Ensures text starts below the image */
+  margin-left: 600px;
+}
+.text2 p{
+  font-size: 15px;
+ 
+  color: #333;
+  margin-left: 620px;
+}

@@ -1,0 +1,72 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+
+   
+}
+.back{
+  width: 100%;
+  height: fit-content;
+  z-index: -1;
+}
+  .hero-text{
+    position:absolute;
+    z-index: 20;
+    top: 0px; /* Adjust this value as needed */
+    left: 20px;
+    padding: 200px 0px;
+    padding-left: 650px;
+    color: hwb(60 5% 95%);
+
+  }
+  .hero-text h1{
+    font-size: 40px;
+    font-weight: 600;
+
+  }
+  .hero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+  }
+ /* @media Quary */
+
+ @media (max-width:970px){
+  .hero-text h1{
+    
+    font-size: 20px;
+    padding: 0;
+  }
+ }
+
+ @media (max-width:480px){
+  .hero-text h1{
+    font-size: 20px;
+    max-width: 20px;
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .hero-text p{
+    font-size: 14px;
+    margin: 15px auto 30px;
+  }
+  .btn{
+    font-size: 14px;
+    margin: 15px auto 30px;
+
+  }
+ }
+
+ .background{
+  height: 100%;
+  width: 100%;
+  float: left;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: none;
+  position: relative;
+  object-fit: cover;
+  z-index: -1;
+ }
